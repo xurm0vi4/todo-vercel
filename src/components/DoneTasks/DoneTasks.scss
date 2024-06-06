@@ -1,0 +1,32 @@
+.done {
+  h2 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+  }
+}
+.done__task {
+  margin-top: 17px;
+  width: 100%;
+  background-color: #15101c;
+  padding: 20px;
+
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &-text {
+    color: #78cfb0;
+    text-decoration: line-through;
+  }
+  &-delete {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+}

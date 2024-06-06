@@ -1,0 +1,43 @@
+.addtask {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 9px 15px;
+    background-color: transparent;
+    border: 1px solid #3e1671;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: #777;
+  }
+  button {
+    cursor: pointer;
+    display: inline-flex;
+    border: none;
+    outline: none;
+    background-color: #9e78cf;
+    padding: 12px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    &:hover {
+      background-color: #77599e;
+      transition: all 0.1s ease 0s;
+      -webkit-transition: all 0.1s ease 0s;
+      -moz-transition: all 0.1s ease 0s;
+      -ms-transition: all 0.1s ease 0s;
+      -o-transition: all 0.1s ease 0s;
+    }
+    &:active {
+      background-color: #632fa8;
+    }
+  }
+}
